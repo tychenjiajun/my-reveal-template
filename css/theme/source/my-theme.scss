@@ -1,0 +1,57 @@
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+$mainFont: "Red Hat Display", "Noto Sans CJK SC", sans-serif;
+$headingFont: "Red Hat Display", "Noto Sans CJK SC", sans-serif;
+
+// Override theme settings (see ../template/settings.scss)
+$mainFontSize: 32px;
+
+$heading1Size: 2.5em;
+$heading2Size: 2em;
+$heading3Size: 1.5em;
+$heading4Size: 1em;
+$headingTextTransform: none;
+
+$backgroundColor: rgb(51, 51, 60);
+$mainColor: #fff;
+$headingColor: #fff;
+
+@mixin bodyBackground() {
+  background: $backgroundColor;
+}
+
+.reveal .slides section .fragment.highlight-red,
+.reveal .slides section .fragment.highlight-current-red,
+.reveal .slides section .fragment.highlight-green,
+.reveal .slides section .fragment.highlight-current-green,
+.reveal .slides section .fragment.highlight-blue,
+.reveal .slides section .fragment.highlight-current-blue {
+  opacity: 1;
+  visibility: inherit;
+}
+.reveal .slides section .fragment.highlight-red.visible {
+  color: #ff6859;
+}
+.reveal .slides section .fragment.highlight-green.visible {
+  color: #1eb980;
+}
+.reveal .slides section .fragment.highlight-blue.visible {
+  color: #72deff;
+}
+
+.reveal .slides section .fragment.highlight-current-red.current-fragment {
+  color: #ff6859;
+}
+.reveal .slides section .fragment.highlight-current-green.current-fragment {
+  color: #1eb980;
+}
+.reveal .slides section .fragment.highlight-current-blue.current-fragment {
+  color: #72deff;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
