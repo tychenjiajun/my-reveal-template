@@ -37,12 +37,12 @@
  *********************************************/
 :root {
   --r-background-color: rgb(51, 51, 60);
-  --r-main-font: Red Hat Display, Noto Sans CJK SC, sans-serif;
+  --r-main-font: Red Hat Display, LXGW Wenkai, Noto Sans CJK SC, -apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;
   --r-main-font-size: 32px;
   --r-main-color: #fff;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Red Hat Display, Noto Sans CJK SC, sans-serif;
+  --r-heading-font: Red Hat Display, LXGW Wenkai, Noto Sans CJK SC, -apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;
   --r-heading-color: #fff;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
