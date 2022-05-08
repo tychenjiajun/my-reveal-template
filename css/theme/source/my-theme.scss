@@ -3,8 +3,10 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-$mainFont: "Red Hat Display", "LXGW Wenkai", "Noto Sans CJK SC", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
-$headingFont: "Red Hat Display", "LXGW Wenkai", "Noto Sans CJK SC", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+$mainFont: "Red Hat Display", "LXGW Wenkai", "Noto Sans CJK SC", "Roboto",
+  -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+$headingFont: "Red Hat Display", "LXGW Wenkai", "Noto Sans CJK SC", "Roboto",
+  -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
 
 // Override theme settings (see ../template/settings.scss)
 $mainFontSize: 32px;
