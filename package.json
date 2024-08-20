@@ -38,7 +38,7 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "babel-plugin-transform-html-import-to-string": "2.0.0",
     "colors": "^1.4.0",
-    "core-js": "^3.22.5",
+    "core-js": "^3.38.1",
     "fitty": "^2.3.6",
     "glob": "^8.0.1",
     "gulp": "^4.0.2",
