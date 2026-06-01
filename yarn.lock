@@ -3946,10 +3946,10 @@ qs@^6.4.0:
   dependencies:
     side-channel "^1.0.4"
 
-qunit@^2.19.1:
-  version "2.19.1"
-  resolved "https://registry.yarnpkg.com/qunit/-/qunit-2.19.1.tgz#eb1afd188da9e47f07c13aa70461a1d9c4505490"
-  integrity sha512-gSGuw0vErE/rNjnlBW/JmE7NNubBlGrDPQvsug32ejYhcVFuZec9yoU0+C30+UgeCGwq6Ap89K65dMGo+kDGZQ==
+qunit@^2.26.0:
+  version "2.26.0"
+  resolved "https://registry.yarnpkg.com/qunit/-/qunit-2.26.0.tgz#1bb519f0c6993f2e40474b8fb564126fa08beb4e"
+  integrity sha512-KSv16YomcYmiK90qTOJl3Bm5IvTf2upqQDdBQWCvSQWe94FWobnUgKOpvpvZdG7VkDt3TJSI8k8g9+GGGEd7Fw==
   dependencies:
     commander "7.2.0"
     node-watch "0.7.3"
